@@ -4,7 +4,7 @@ SX_VM_CNONE();
 -- @classmod Maid
 -- @see Signal
 
-local Signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/ic0nnita/Library/refs/heads/main/Signal.lua');
+local Signal = sharedRequire('https://raw.githubusercontent.com/ic0nnita/Library/refs/heads/main/Signal.lua');
 local tableStr = getServerConstant('table');
 local classNameStr = getServerConstant('Maid');
 local funcStr = getServerConstant('function');
